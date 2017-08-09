@@ -55,7 +55,7 @@ if (isset($_POST)) {
 
 <div style="width:450px;margin:0 auto;">
 
-<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method=post style="text-align:left;fonf-family:fixed;">
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method=post>
 	<strong><h3>Open Port</h3></strong><BR>
 	Enter Password : <input type=password name=pw autocomplete=off id=pw><BR>
 	Enter IP Addr&nbsp; : <input type=text autocomplete=off style="text-align:right;background-color:<?php echo $bgcolor;?>" value="<?=$_SERVER[REMOTE_ADDR];?>" name=ipaddr>: <strong><?php echo $port; ?></strong><BR>
